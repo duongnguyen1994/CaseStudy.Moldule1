@@ -225,7 +225,11 @@ tbody>tr>th{
 }
 
 .team-staff>div>h6{
+    font-size: 23px;
     margin-top: 30px;
+    padding: 8px;
+    color: white;
+    background-color: #e55039;
 }
 
 .staff{
@@ -245,14 +249,13 @@ tbody>tr>th{
 }
 
 iframe{
-    width: 288px;
+    width: 268px;
     height: 200px;
     padding-top: 20px;
 }
 
 .video{
-    width: 290px;
-    margin-top: 15px;
+    width: 270px;
     background-color: whitesmoke;
     border-left: 2px outset #dcd0d4;
     border-right: 2px outset #dcd0d4;
