@@ -285,6 +285,13 @@ iframe{
 
 .content-bot>ul>li>img{
     height: 70px;
+    border-bottom: 1px solid white;
+}
+
+.content-bot>ul>li{
+    text-align: center;
+    color: #f1c40f;
+    font-size: 25px;
 }
 
 

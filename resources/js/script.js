@@ -1,3 +1,5 @@
+// League Table
+
 function Team(name ,win,draw, lose, gd){
     this.Name = name;
     this.Win = win;
