@@ -294,14 +294,34 @@ iframe{
     font-size: 25px;
 }
 
+.sponsor{
+    background-color: white;
+    padding-top: 30px;
+}
 
+.sponsor>div{
+    height: 130px;
+    padding-top: 20px;
+    background-color: whitesmoke;
+}
+
+.sponsor>div>ul{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.sponsor>div>hr{
+    border: 1px solid #dfe6e9;
+}
 
 
 /* --------------Footer-------------- */
 .footer{
     background-color: #e55039;
     text-align: center;
-    height: 300px;
+    height: 350px;
 }
 
 .footer>img{
