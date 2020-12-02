@@ -224,7 +224,7 @@ tbody>tr>th{
     font-size: 23px;
 }
 
-.team-staff>h5{
+.team-staff>div>h6{
     margin-top: 30px;
 }
 
@@ -232,7 +232,7 @@ tbody>tr>th{
     background-color: whitesmoke;
 }
 
-.team-staff>div>a{
+.staff>a{
     display: block;
     color: black;
     font-size: 22px;
@@ -252,15 +252,49 @@ iframe{
 
 .video{
     width: 290px;
-    margin-top: 10px;
+    margin-top: 15px;
     background-color: whitesmoke;
     border-left: 2px outset #dcd0d4;
     border-right: 2px outset #dcd0d4;
-    border-bottom: 2    px outset #dcd0d4;
+    border-bottom: 2px outset #dcd0d4;
+    text-align: center;
 }
 
 .video:hover{
     background-color: #dcdcdc;
+}
+
+.video>a{
+    font-size: 21px;
+    color: black; 
+}
+
+/* -----------Content bottom-------------- */
+
+.footer{
+    background-color: #e55039;
+    text-align: center;
+    height: 300px;
+}
+
+.footer>img{
+    width: 8%;
+}
+
+.footer>div>ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footer>div>ul>li>a{
+    font-size: 17px;
+    text-decoration: underline white;
+}
+
+.end{
+    color: white;
+    font-size: 17px;
+    padding: 5px;
 }
 
 
