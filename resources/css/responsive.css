@@ -50,6 +50,10 @@ body{
     .news>a{
         font-size: 13px !important;
     }
+    .team-title{
+        padding: 0px !important;
+        max-width: 100% !important;
+    }
     .l-table{
         padding-top: 20px;
     }
